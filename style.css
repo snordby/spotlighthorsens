@@ -1,0 +1,222 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+alt {
+    z-index: -1;
+    background-color: #f8f8f8;
+}
+
+.slideshow {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: block;
+    width: 70%;
+    height: 580px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 9pt 18pt 9pt 18pt;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.contentA {
+    display: block;
+    width: 70%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 9pt 18pt 9pt 18pt;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.buttonL {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.buttonR {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.rainbow {
+    position: absolute;
+    z-index: -1;
+    height: 100%; 
+    width: 100%;
+    background: linear-gradient(to right, 
+                                #ff3333 14.25%,
+				#ff720d 14.25%, #ff720d 29%,
+				#ffed19 29%, #ffed19 43.5%,
+				#55ff26 43.5%, #55ff26 58%,
+				#33ffce 58%, #33ffce 72.5%,
+				#1953ff 72.5%, #1953ff 87%,
+				#ce00ff 87%
+			       );
+}
+
+.lightup {
+    position: absolute;
+    z-index: -1;
+    height: 100%; 
+    width: 100%;
+    background: white;
+}
+
+#r {
+    display: bplock;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 14.25%;
+    background-color: #ff3333;
+}
+
+#o {
+    display: block;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 14.25%;
+    height: 100%;
+    width: 14.25%;
+    background-color: #ff720d;
+}
+
+#y {
+    display: block;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 29%;
+    height: 100%;
+    width: 14.25%;
+    background-color: #ffed19;
+}
+
+#g {
+    display: block;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 43.5%;
+    height: 100%;
+    width: 14.25%;
+    background-color: #55ff26;
+}
+
+#c {
+    display: block;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 58%;
+    height: 100%;
+    width: 14.25%;
+    background-color: #33ffce;
+}
+
+#b {
+    display: block;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 72.5%;
+    height: 100%;
+    width: 14.25%;
+    background-color: #1953ff;
+}
+
+#m {
+    display: block;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 87%;
+    height: 100%;
+    width: 14.25%;
+    background-color: #ce00ff;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 82pt;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: Lato;
+    font-size: 18pt;
+    text-align: right;
+    color: black;
+}
+
+h3 {
+    font-family: Josefin Slab;
+    font-size: 36pt;
+    font-weight: bold;
+    padding-top: 24pt;
+    color: black;
+}
+
+p {
+    font-family: Josefin Slab;
+    font-size: 36pt;
+    text-align: center;
+    color: black;
+}
+
+p.bulb1 {
+    font-size: 160pt;
+    text-align: center;
+    color: white;
+}
+
+p.bulb2 {
+    font-size: 160pt;
+    text-align: center;
+    color: black;
+}
+
+p.symbol {
+    font-size: 72pt;
+    text-align: center;
+}
+
+p.countdown {
+    font-family: Share Tech Mono;
+    font-size: 72pt;
+    padding: 18pt;
+    text-align: center;
+    color: red;
+    background: black;
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
