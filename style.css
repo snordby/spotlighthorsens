@@ -27,11 +27,6 @@ body {
     overflow: hidden;
 }
 
-alt {
-    z-index: -1;
-    background-color: #f8f8f8;
-}
-
 .slideshow {
     width: 100%;
     height: 100%;
@@ -82,9 +77,14 @@ alt {
 
 .rainbow {
     position: absolute;
+    bottom: 0;
     z-index: -1;
     height: 100%; 
     width: 100%;
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s; /* Firefox */
+    -webkit-animation: fadein 0.5s; /* Safari and Chrome */
+    -o-animation: fadein 0.5s; /* Opera */
     background: linear-gradient(to right, 
                                 #ff3333 14.25%,
 				#ff720d 14.25%, #ff720d 29%,
@@ -94,6 +94,15 @@ alt {
 				#1953ff 72.5%, #1953ff 87%,
 				#ce00ff 87%
 			       );
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
 
 .lightup {
@@ -110,6 +119,7 @@ alt {
     position: fixed;
     bottom: 0;
     left: 0;
+    transition: height 1s;
     height: 100%;
     width: 14.25%;
     background-color: #ff3333;
@@ -234,12 +244,6 @@ p.countdown {
     text-align: center;
     color: red;
     background: black;
-}
-
-.fa {
-	font-size: 72pt;
-	text-align: center;
-	color: black;
 }
 
 img {
