@@ -10,6 +10,10 @@
   font-style:normal
 }
 
+i {
+	font-family: FontAwesome;
+}
+
 [class^="icon-"]:before,
 [class*=" icon-"]:before
 {
