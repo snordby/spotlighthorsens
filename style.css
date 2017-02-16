@@ -5,10 +5,10 @@
   src:url('./fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
       url('./fontawesome-webfont.woff') format('woff'),
       url('./fontawesome-webfont.ttf') format('truetype'),
-      url('./fontawesome-webfont.svg#FontAwesome') format('svg');
-	url('https://github.com/FortAwesome/Font-Awesome/tree/master/fonts/fontawesome-webfont.eot');
-	url('https://github.com/FortAwesome/Font-Awesome/tree/master/fonts/fontawesome-webfont.eot?#iefix');
-	url('https://github.com/FortAwesome/Font-Awesome/tree/master/fonts/fontawesome-webfont.ttf');
+      url('./fontawesome-webfont.svg#FontAwesome') format('svg'),
+	url('https://github.com/FortAwesome/Font-Awesome/tree/master/fonts/fontawesome-webfont.eot'),
+	url('https://github.com/FortAwesome/Font-Awesome/tree/master/fonts/fontawesome-webfont.eot?#iefix'),
+	url('https://github.com/FortAwesome/Font-Awesome/tree/master/fonts/fontawesome-webfont.ttf'),
 	url('https://github.com/FortAwesome/Font-Awesome/tree/master/fonts/fontawesome-webfont.svg');
   font-weight:normal;
   font-style:normal
