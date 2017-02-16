@@ -71,7 +71,7 @@ body {
 
 .buttonL {
     position: absolute;
-    font-size: 36pt;
+    font-size: 28pt;
     bottom: 10px;
     left: 120px;
     color: rgba(255, 255, 255, 0.6);
@@ -79,7 +79,7 @@ body {
 
 .buttonR {
     position: absolute;
-    font-size: 36pt;
+    font-size: 28pt;
     bottom: 10px;
     right: 120px;
     color: rgba(255, 255, 255, 0.6);
